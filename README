@@ -1,0 +1,29 @@
+== Squirrel.js
+
+A cache manager evening out the W3C's localStorage and IE's userData.
+
+== What's new in this release?
+
+See the CHANGELOG file for information on what's new.
+
+== Installation/Usage
+
+Put Squirrel.js in a directory on your website, e.g. /js.
+
+Then create a new Squirrel, passing it an id for your cache:
+
+var $S = new Squirrel( 'squirrel-test' );
+
+Use Squirrel to store and retrieve info from the cache.
+
+
+== The distribution
+
+Besides the Squirrel.js files in /src, there's a complete
+test tree included (/tests) which holds assorted tests for Squirrel.js
+and a minified version in /min.
+
+== License
+
+Squirrel.js is licensed under the terms of the MIT License, see 
+the included MIT-LICENSE file.
